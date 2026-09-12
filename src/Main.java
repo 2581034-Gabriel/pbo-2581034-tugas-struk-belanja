@@ -39,7 +39,14 @@ public class Main {
         System.out.print("Uang yang dibayar: ");
         int uang = scanner.nextInt();
 
+        int totalSemua1 = harga1 * jumlah1;
+        int totalSemua2 = harga2 * jumlah2;
+        int totalSemua3 = harga3 * jumlah3;
+        int totalBelanja = totalSemua1 + totalSemua2 + totalSemua3;
+        int kembalian = uang - totalBelanja;
 
+        System.out.println("===STRUK BELANJA===");
+        System.out.println(nama1 + jumlah1 + harga1 = totalSemua1);
 
     }
 
