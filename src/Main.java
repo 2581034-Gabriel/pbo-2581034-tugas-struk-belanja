@@ -36,6 +36,9 @@ public class Main {
         System.out.print("Jumlah: ");
         int jumlah3 = scanner.nextInt();
 
+        System.out.print("Uang yang dibayar: ");
+        int uang = scanner.nextInt();
+
 
 
     }
